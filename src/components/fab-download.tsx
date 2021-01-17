@@ -26,7 +26,7 @@ const FabDownload = () => {
         className={classes.fab}
         color="secondary"
         size="small"
-        /* href=" " ADD GITHUB LINK LATER */
+        href="https://github.com/judyz01/plasma"
         target="_blank"
       >
         <GetAppIcon />
