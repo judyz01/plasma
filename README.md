@@ -15,8 +15,8 @@
    Clone this repo and install required dependencies:
 
    ```bash
-   git clone https://github.com/shantanu-deshmukh/vhealth-gatsby.git
-   cd vhealth-gatsby
+   git clone https://github.com/judyz01/plasma.git
+   cd plasma
    yarn install
    #or `npm install` if you prefer npm
    ```
