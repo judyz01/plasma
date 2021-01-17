@@ -80,7 +80,7 @@ const Header = ({ companyName }: Props) => {
           <Hidden xsDown>
             
           <Button href="/physical" color="inherit">
-            Schedule an Appointment
+            Take the Test
           </Button>
           
           </Hidden>

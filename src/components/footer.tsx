@@ -47,7 +47,7 @@ const Footer = () => {
               and accessible platform for donors everywhere
             </Typography>
             <Typography variant="body2" color="inherit">
-              ©Plasma 2020. All rights reserved
+              ©Plasma 2021. All rights reserved
             </Typography>
           </Grid>
 
