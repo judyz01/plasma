@@ -28,12 +28,12 @@ const AppsPanel = () => {
           variant="subtitle1"
           style={{ marginBottom: 30, marginTop: 20 }}
         >
-         One of the main features we implemented in our website is OCR, which stands for optical
-         character recognition. What it does is that it takes any image, analyze the text in said image, 
-         and extracts the text for us to manipulate it. In our case, we use OCR to analyze your COVID-19
-         test results and to help determine your eligibility! {
-           
-         }
+        One of the main features we implemented in our website is OCR, which stands for optical
+        character recognition. What it does is that it takes any image, analyze the text in said image, 
+        and extracts the text for us to manipulate it. In our case, we use OCR to analyze your COVID-19
+        test results and to help determine your eligibility! {
+        
+        }
         </Typography>
         {/* <Button
           variant="outlined"
