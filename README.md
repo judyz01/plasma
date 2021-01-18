@@ -2,38 +2,8 @@
   Plasma
 </h1>
 
-## 🚀 Get Up and Running in 5 Minutes
-
-1. **Install the Gatsby CLI.**
-
-   ```bash
-   npm install -g gatsby-cli
-   ```
-
-2. **Download and install dependencies.**
-
-   Clone this repo and install required dependencies:
-
-   ```bash
-   git clone https://github.com/judyz01/plasma.git
-   cd plasma
-   yarn install
-   #or `npm install` if you prefer npm
-   ```
-
-3. **Start the site in `develop` mode.**
-
-   Start the site in develop mode and make changes as per your requirement
-
-   ```bash
-   gatsby develop
-   ```
-
-4. **Deploy**
-
-   Just build and deploy the `public` directory to a service that serves HTML pages.
-
-   ```bash
-   gatsby build
-   ```
+## About the Site
+   For 2021 HackDavis event, we at Team Plasma set out to develop a site using OCR (optical character recognition) to extract textual information from images and use it to process user eligibility for
+   plasma donations. Our motivations were to contribute in a way that would help tackle the COVID-19
+   pandemic, all in the interest of promoting social good across the nation.
 
