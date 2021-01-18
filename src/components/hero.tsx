@@ -25,7 +25,7 @@ const Hero = () => {
         <Typography variant="subtitle1" style={{ marginBottom: 30 }}>
           Find out if you're eligible to donate plasma containing COVID-19 antibodies. 
         </Typography>
-        <Button href="/physical" variant="contained" color="primary" size="large">
+        <Button href="/typeform" variant="contained" color="primary" size="large">
           Am I Eligible
         </Button>
       </Grid>

@@ -79,7 +79,7 @@ const Header = ({ companyName }: Props) => {
 
           <Hidden xsDown>
             
-          <Button href="/physical" color="inherit">
+          <Button href="/typeform" color="inherit">
             Take the Test
           </Button>
           
