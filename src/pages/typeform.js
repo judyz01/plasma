@@ -14,7 +14,7 @@ class Form extends React.Component {
         opacity: 0,
         onSubmit: function() {
           window.location.href = "/uploadResults"
-          console.log('Typeform successfully submitted')
+          console.log('Typeform successfully submitted!')
         }
       });
     }
