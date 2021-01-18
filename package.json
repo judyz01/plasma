@@ -1,13 +1,14 @@
 {
-  "name": "vhealth-gatsby",
+  "name": "plasma",
   "private": true,
   "description": "Open Source web template for a Healthcare Startup.",
   "version": "0.1.0",
-  "author": "Shantanu Deshmukh",
+  "author": "Judy Zhang",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
     "@material-ui/styles": "^4.10.0",
+    "@typeform/embed": "^0.33.2",
     "@types/react": "^16.9.46",
     "@types/react-dom": "^16.9.8",
     "@types/react-helmet": "^6.1.0",

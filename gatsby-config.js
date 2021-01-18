@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Vhealth - Open source gatsby template`,
+    title: `Plasma`,
     description: `Free website template for a health care startup.`,
-    author: `Shantanu Deshmukj`,
+    author: `Judy Zhang`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -24,7 +24,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/vhealth-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/plasma-icon.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-material-ui`,

@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 
 const Physical = () => (
   <Layout>
-    <p>Are at least 17 years old and weigh 110 lbs?</p>
+    <p>Are you at least 17 years old and weigh 110 lbs?</p>
     
     <Button href="/symptoms" variant="outlined" color="primary" size="large">
         Yes

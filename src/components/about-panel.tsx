@@ -38,14 +38,16 @@ const AboutPanel = () => {
         style={{ paddingLeft: 40, paddingRight: 40 }}
       >
         <Typography variant="h4" color="inherit">
-          Filler
+          Make a difference
         </Typography>
         <Bar />
         <Typography
           variant="subtitle1"
           style={{ marginBottom: 30, marginTop: 20 }}
         >
-          Fillerrr
+          If you have been stricken by COVID-19 in the past and wants to help save other diagnosed patients, 
+          then this is the site to take that first step. You must be at least 17 years old and be
+          in healthy condition to participate.
         </Typography>
       </Grid>
     </Grid>

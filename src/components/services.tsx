@@ -10,21 +10,21 @@ const Services = () => {
       id: 1,
       image: "tracking-icon.png",
       title: "Take a Survey",
-      description: "filler1",
+      description: "Done in less than 20 seconds. Don't worry, it's completely confidential!",
     },
     {
       id: 2,
       image: "consultation-icon.png",
       title: "Upload Your Test Results",
       description:
-        "filler2",
+        "We accept .PNG and .JPG files, so just take a picture with your phone. No more scanning those pesky PDFs anymore!",
     },
     {
       id: 3,
       image: "search-doctor-icon.png",
       title: "Find a Nearby Blood Bank",
       description:
-        "filler3",
+        "If you're eligible, you can donate plasma and save lives!",
     }
   ]
 
@@ -46,10 +46,15 @@ const Services = () => {
         justify="center"
         alignItems="center"
       >
-        <Typography variant="h5">Something idk</Typography>
+        <Typography variant="h5">Our Goal</Typography>
         <Bar />
         <Typography variant="subtitle1" style={{ margin: 30 }}>
-          Lots of filler
+         The outbreak of COVID-19 impacted the lives of countless people around the world for the past year already.
+         The level of suffering and hardships endured by everyone is a testament to our collective strength.
+         Through month after month of quarantine and uncertainty, we on Team Plasma want to help people believe
+         that the decision they make today by donating to others will be of profound importance. Every donation
+         of plasma will go a long way to save lives, whether it be in your local community or another. Only if we
+         help each other can we make a difference.
         </Typography>
       </Grid>
 

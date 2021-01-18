@@ -122,7 +122,7 @@ updateProgressAndLog(m){
                         <div class="card-body" style={{marginBottom : "17%"}}>
                             <p class="card-text">{(this.state.isProcessing) ?
                                     ''
-                                    : this.state.ocrText.length === 0 ? "Upload your COVID-19 Test Results" : 
+                                    : this.state.ocrText.length === 0 ? "Upload your COVID-19 Test Results (use only .PNG or .JPG files)" : 
                                     this.state.eligible 
                                         ? 
                                         <Button href="/eligible" variant="outlined" color="primary" size="large">
