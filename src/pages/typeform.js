@@ -13,7 +13,7 @@ class Form extends React.Component {
         hideHeaders: true,
         opacity: 0,
         onSubmit: function() {
-          location.href = 'https://www.google.com/'
+          href = "/uploadResults"
           console.log('Typeform successfully submitted')
         }
       });
