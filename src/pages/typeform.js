@@ -11,7 +11,11 @@ class Form extends React.Component {
       typeformEmbed.makeWidget(this.el, "https://0z0g8s2ryt8.typeform.com/to/OhhvXk5p", {
         hideFooter: true,
         hideHeaders: true,
-        opacity: 0
+        opacity: 0,
+        onSubmit: function() {
+          location.href = 'https://www.google.com/'
+          console.log('Typeform successfully submitted')
+        }
       });
     }
   }
