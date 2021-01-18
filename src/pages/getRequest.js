@@ -29,6 +29,7 @@ class getRequest extends React.Component {
       return (
           <div className="card">
               <h5 className="card-header">Nearest donation centers:</h5>
+              <img src="plasmamap.png" alt="Plasma Map"></img>
               <div className="card-body">
                   {totalReactPackages}
               </div>
