@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Plasma`,
-    description: `Free website template for a health care startup.`,
+    description: `Determine your eligibilty to donate plasma for COVID-19 patients.`,
     author: `Judy Zhang`,
   },
   plugins: [
