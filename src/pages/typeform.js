@@ -1,5 +1,7 @@
 import React from 'react';
-import * as typeformEmbed from '@typeform/embed'
+import Button from "@material-ui/core/Button"
+if (typeof window !== "undefined") {   const typeformEmbed = require('@typeform/embed'); }
+
 
 class Form extends React.Component {
   constructor(props) {
@@ -13,7 +15,6 @@ class Form extends React.Component {
         hideHeaders: true,
         opacity: 0,
         onSubmit: function() {
-          this.location.href = "/uploadResults"
           console.log('Typeform successfully submitted!')
         }
       });
@@ -21,7 +22,7 @@ class Form extends React.Component {
   }
   render() {
     return (
-      <div ref={(el) => this.el = el} style={{width: '100%', height: '700px'}} />
+      <div style={{width: '100%', height: '700px'}} />
     )
   }
 }
