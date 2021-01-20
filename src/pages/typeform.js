@@ -1,6 +1,6 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import Button from "@material-ui/core/Button"
-if (typeof window !== "undefined") {   const typeformEmbed = require('@typeform/embed'); }
+//if (typeof window !== "undefined") {   const typeformEmbed = require('@typeform/embed'); }
 
 
 class Form extends React.Component {
@@ -9,9 +9,9 @@ class Form extends React.Component {
     this.el = null;
   }
   componentDidMount() {
-    useEffect(() => {
+    if (typeof window !== "undefined") {
+      const typeformEmbed = require('@typeform/embed');
       if (this.el) {
-        const typeformEmbed = require('@typeform/embed');
         typeformEmbed.makeWidget(this.el, "https://0z0g8s2ryt8.typeform.com/to/OhhvXk5p", {
           hideFooter: true,
           hideHeaders: true,
@@ -21,7 +21,7 @@ class Form extends React.Component {
           }
         });
       }
-    }, []);
+    }
   }
   render() {
     return (
